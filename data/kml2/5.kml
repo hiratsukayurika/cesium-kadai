@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>5.kml</name>
+	<Style id="failed22">
+		<IconStyle>
+			<Icon>
+				<href>../img/5.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed4">
+		<IconStyle>
+			<Icon>
+				<href>../img/5.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>グエル館</name>
+		<description><![CDATA[<img src="https://s-media-cache-ak0.pinimg.com/236x/0d/f6/85/0df6853eaffc6550400a2f8b191d6e53.jpg">
+1886～1888年
+設計：アントニ・ガウディ
+
+放物線アーチによる玄関開口部が目を引くファサードや、ドームの天窓から光が降り注ぐサロンなど、建築構造と空間構成が見事に統一された傑作。世界遺産。
+
+見学：建物内部は、地下から屋上まで公開されている。有料。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.174439900080656</longitude>
+			<latitude>41.37916110009508</latitude>
+			<altitude>0</altitude>
+			<heading>5.306596458287802e-011</heading>
+			<tilt>0</tilt>
+			<range>999.9801792229738</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1888</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.174439900080656,41.37916110009508,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

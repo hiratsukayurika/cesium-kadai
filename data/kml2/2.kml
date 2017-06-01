@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>2.kml</name>
+	<Style id="failed34">
+		<IconStyle>
+			<Icon>
+				<href>../img/2.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed34</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed6">
+		<IconStyle>
+			<Icon>
+				<href>../img/2.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>カサ・ビセンス</name>
+		<description><![CDATA[<img src="https://media-cdn.tripadvisor.com/media/photo-s/02/62/f3/2b/casa-vicens.jpg">1883～1885年
+設計：アントニ・ガウディ
+
+タイル工場経営者だった実業家マヌエル＝ビセンスの依頼により設計。
+アルハンブラ宮殿やイスラム風のムデハール様式の影響が色濃い。
+
+見学：個人邸宅のため内部は非公開]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.151264999974187</longitude>
+			<latitude>41.40366019960952</latitude>
+			<altitude>0</altitude>
+			<heading>-1.728691104775699e-011</heading>
+			<tilt>0</tilt>
+			<range>1000.000005705815</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1885</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin15</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.151569730045984,41.40369172660682,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>10.kml</name>
+	<StyleMap id="m_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed29">
+		<IconStyle>
+			<Icon>
+				<href>../img/10.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="failed21">
+		<IconStyle>
+			<Icon>
+				<href>../img/10.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>コロニア・グエル協会地下聖堂</name>
+		<description><![CDATA[<img src="http://stat.ameba.jp/user_images/20110403/20/sekaibijyutsukan/b3/9c/j/o0500033311143417121.jpg">1898～1916年
+設計：アントニ・ガウディ
+
+グエルは６０ヘクタールに及ぶ敷地に医療施設、学校などを備えた、織物工場を中心とする労働者住宅地（コロニア）を構想。「逆さ吊り実験」による建築を試みるも未完。世界遺産。
+
+見学：コロニアは一般開放されている。地下聖堂と併せて見学できる。有料。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.057348446395744</longitude>
+			<latitude>41.36282350281727</latitude>
+			<altitude>0</altitude>
+			<heading>0.02022235093411574</heading>
+			<tilt>3.371151752017939</tilt>
+			<range>9407.091422071973</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1916</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin1</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.027736559679358,41.36274950768303,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

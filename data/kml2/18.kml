@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>18.kml</name>
+	<Style id="failed24">
+		<IconStyle>
+			<Icon>
+				<href>../img/18.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed31">
+		<IconStyle>
+			<Icon>
+				<href>../img/18.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>カサ・ミラ</name>
+		<description><![CDATA[<img src="https://tse1.mm.bing.net/th?id=OIP.O5HtW2OocuttUYBt2VRIXQEgDY&pid=15.1">
+1906～1910年
+設計：アントニ・ガウディ
+
+実業家のペレ・ミラ夫妻の邸宅として建設。直線部分が全くなく、荒々しい石積みの壁が波打つ外観から、「ラ・ペドレラ（石切り場）」とも呼ばれる。床を構造体とすることで、外壁の構造的制約の軽減に成功。造形上の自由を獲得した。
+最上階にはガウディ記念館が設置されている。
+
+見学：住居部を除く屋上、最上階、屋根裏、二階が見学可能。有料。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.165735585665394</longitude>
+			<latitude>41.3914974899452</latitude>
+			<altitude>0</altitude>
+			<heading>0.002685029119181532</heading>
+			<tilt>0</tilt>
+			<range>1484.107029689863</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1910</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin14</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.161802713827017,41.39516823882915,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

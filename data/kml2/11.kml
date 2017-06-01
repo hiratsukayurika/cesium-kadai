@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>11.kml</name>
+	<Style id="failed2">
+		<IconStyle>
+			<Icon>
+				<href>../img/11.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed9">
+		<IconStyle>
+			<Icon>
+				<href>../img/11.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>ミリャーレス邸の門</name>
+		<description><![CDATA[<img src="http://img.4travel.jp/img/tcs/t/pict/500/11/72/07/500_11720714.jpg?1281578589">1900～1902年
+設計：アントニ・ガウディ
+
+親友ミリャーレスの依頼により、マヌエル・ヒロナ通りに設計、現在では門と塀のみが残っている。
+石と鉄が連続的、躍動的に組み合わされている塀のデザインはガウディらしい。門の下にはガウディの彫像が立つ。
+
+見学：現在も建設時のまま使用されておりいつでも見学可能。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.127500200011496</longitude>
+			<latitude>41.39208579998071</latitude>
+			<altitude>0</altitude>
+			<heading>7.418643794513653e-012</heading>
+			<tilt>0</tilt>
+			<range>1000.000014609187</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1902</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin8</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.127500200011496,41.39208579998072,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

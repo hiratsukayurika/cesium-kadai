@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>7.kml</name>
+	<Style id="failed15">
+		<IconStyle>
+			<Icon>
+				<href>../img/7.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed13">
+		<IconStyle>
+			<Icon>
+				<href>../img/7.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>ボデーガ・デ・ガラーフ</name>
+		<description><![CDATA[<img src="http://userdisk.webry.biglobe.ne.jp/013/905/76/N000/000/000/120799374306016121236.JPG">1895～1901年
+設計：アントニ・ガウディ
+
+バルセロナシッチェス郊外の港町ガラーフに建つ。明快な構造と形態で、ガウディらしさのないすっきりと洗練されたスタイルが特徴の異色作。酒蔵の管理人一家の住宅として設計されたが、現在ではレストランとして営業している。
+
+見学：建物内部は一般公開されていないが、一階レストラン部分は利用可能。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.002002063927855</longitude>
+			<latitude>41.30488127664782</latitude>
+			<altitude>0</altitude>
+			<heading>0.002928128275437379</heading>
+			<tilt>0.3144744091238139</tilt>
+			<range>54300.72297687837</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1901</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin9</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>1.897517320072357,41.26001090687205,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

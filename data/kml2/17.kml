@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>17.kml</name>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed1">
+		<IconStyle>
+			<Icon>
+				<href>../img/17.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="failed23">
+		<IconStyle>
+			<Icon>
+				<href>../img/17.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>カタルーニャ音楽堂</name>
+		<description><![CDATA[<img src="http://cdn.amanaimages.com/cen3tzG4fTr7Gtw1PoeRer/26095005102.jpg">
+1905～1908年
+設計：ドメイク・イ・モンタネール
+
+カタルーニャ・ルネサンスで指導的役割を果たした合唱団オルフェオ・カタラのために建設。
+装飾で埋め尽くされた柱と天井、滴り落ちそうなシャンデリアは、モデルニスモの集大成と呼ぶにふさわしい。世界遺産。
+
+見学：コンサート鑑賞時以外では、見学ツアーがある。有料。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.17504246845831</longitude>
+			<latitude>41.38736657315617</latitude>
+			<altitude>0</altitude>
+			<heading>3.060228727917366e-007</heading>
+			<tilt>0</tilt>
+			<range>1002.580716297938</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1908</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.17504246845831,41.38736657315617,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

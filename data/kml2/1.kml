@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>1.kml</name>
+	<Style id="sh_01">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>../img/01.jpg</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_01">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_01">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>../img/01.jpg</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Placemark>
+		<name>レイアル広場の街灯</name>
+		<description><![CDATA[<img src="https://tse2.mm.bing.net/th?id=OIP._EiJC9oOs4vXOCvBvR0EFAEsDg&pid=15.1">1878年
+設計：アントニ・ガウディ
+
+建築学校を卒業し建築士となった２６歳のガウディが手掛けた最初期の作品。
+広場を囲む回廊式の建物はレストランやバルで、昼夜を問わず人があふれている人気スポット。
+
+見学：広場の北端と南端にそれぞれひとつずつ配置されている。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>2016</when>
+</gx:TimeStamp>
+			<longitude>2.17527000006011</longitude>
+			<latitude>41.3801000000851</latitude>
+			<altitude>0</altitude>
+			<heading>3.979927465249095e-011</heading>
+			<tilt>0</tilt>
+			<range>1000.000000600078</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1878</begin>
+			<end>1935-12-31T23:59:59Z</end>
+		</TimeSpan>
+		<styleUrl>#msn_01</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.17527000006011,41.38010000008509,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

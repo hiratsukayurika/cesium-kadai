@@ -8,7 +8,7 @@
 	<meta property="og:image" content="data/hinoshi.png" />
 	<meta property="og:description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<title>日野市オープンデータ可視化</title>
+	<title>モデルニスモ建築紹介</title>
 	<link rel="alternate" href="http://hiroshima.archiving.jp/index_en.html" hreflang="en" />
 	<link rel="SHORTCUT ICON" href="http://shinsai.mapping.jp/favicon.ico">
 	<style>
@@ -64,7 +64,7 @@
 		<a href="https://www.openstreetmap.org/copyright" target="_blank">MapData: © OpenStreetMap contributors</a>
 	</div>
 	<script>
-		// ========== 初期化 ========== 
+		// ========== 初期化 ==========
 
 		//スマホで閲覧した際に，スワイプによるスクロールを禁止
 
@@ -90,19 +90,16 @@
 			$(svNotAvailable).hide();
 		});
 
-		// ========== ビューア初期化 ========== 
+		// ========== ビューア初期化 ==========
 
 		var viewer = new Cesium.Viewer('cesiumContainer', {
-			imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
-				url: '//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer',
-				enablePickFeatures: false
-			}),
+			imageryProvider: new Cesium.createOpenStreetMapImageryProvider({}),
 			navigationHelpButton: false,
 			navigationInstructionsInitiallyVisible: false,
 			geocoder: false,
 			//時間を使うときは以下の二行をコメントアウト
-			timeline: false,
-			animation: false,
+			//timeline: false,
+			//animation: false,
 			sceneModePicker: false,
 			baseLayerPicker: false,
 			scene3DOnly: true,
@@ -119,8 +116,8 @@
 		var cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
 			url: '//assets.agi.com/stk-terrain/world',
 			//海を表示しないときは以下をfalseに
-			requestWaterMask: true,
-			requestVertexNormals: true
+			requestWaterMask: false,
+			requestVertexNormals: false
 		});
 		viewer.terrainProvider = cesiumTerrainProviderMeshes;
 
@@ -130,7 +127,7 @@
 		fog.density = 0.0005;
 		fog.screenSpaceErrorFactor = 100.0;
 
-		// ========== 視点関連 ========== 
+		// ========== 視点関連 ==========
 
 		//視点配列を作成
 
@@ -147,9 +144,8 @@
 
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 
-		viewPointsArray[0] = new viewPoints("首都大", 35.661, 139.3657347, 0, -45, 1000);
-		viewPointsArray[1] = new viewPoints("日野市", 35.654, 139.394, 0, -89, 15000);
-		viewPointsArray[2] = new viewPoints("初期視点", 35.654, 139.394, 0, -35, 5000);
+		viewPointsArray[0] = new viewPoints("スペイン", 41.4, 2.044419, 0, -80, 71000);
+
 
 		//視点メニューを作成
 
@@ -195,7 +191,7 @@
 			navigator.geolocation.getCurrentPosition(fly);
 		}
 
-		// ========== 以降，起動シークエンス ========== 
+		// ========== 以降，起動シークエンス ==========
 
 		//クレジットを隠す
 
@@ -208,7 +204,7 @@
 
 		function groundZero() {
 			//視点を移動：視点番号，デュレーション
-			changeViewPoint(1, 3);
+			changeViewPoint(0, 3);
 			//オーバレイを追加
 			openStreetMapLayer();
 			setTimeout('landing()', 4000);
@@ -216,13 +212,13 @@
 
 		function landing() {
 			//視点を移動：視点番号，デュレーション
-			changeViewPoint(2, 3);
+			//changeViewPoint(2, 3);
 			//ローディングGIFを表示
 			setTimeout('fadeInOut(blackOutDiv,1)', 3000);
 			setTimeout('loadKml()', 3000);
 		}
 
-		// ========== KMLをロード ========== 
+		// ========== KMLをロード ==========
 
 		//KML配列を作成
 
@@ -233,8 +229,27 @@
 
 		var kmlDataArray = [];
 		//KMLデータを登録．kmzでもOK
-		kmlDataArray[0] = new kmlData("避難所", 'data/kml/hinanjo.kml');
-		kmlDataArray[1] = new kmlData("避難場所", 'data/kml/hinanbasyo.kml');
+		kmlDataArray[0] = new kmlData('レイアル広場', 'data/kml2/1.kml');
+		kmlDataArray[1] = new kmlData('レイアル広場', 'data/kml2/2.kml');
+		kmlDataArray[2] = new kmlData('レイアル広場', 'data/kml2/3.kml');
+		kmlDataArray[3] = new kmlData('レイアル広場', 'data/kml2/4.kml');
+		kmlDataArray[4] = new kmlData('レイアル広場', 'data/kml2/5.kml');
+		kmlDataArray[5] = new kmlData('レイアル広場', 'data/kml2/6.kml');
+		kmlDataArray[6] = new kmlData('レイアル広場', 'data/kml2/7.kml');
+		kmlDataArray[7] = new kmlData('レイアル広場', 'data/kml2/8.kml');
+		kmlDataArray[8] = new kmlData('レイアル広場', 'data/kml2/9.kml');
+		kmlDataArray[9] = new kmlData('レイアル広場', 'data/kml2/10.kml');
+		kmlDataArray[10] = new kmlData('レイアル広場', 'data/kml2/11.kml');
+		kmlDataArray[11] = new kmlData('レイアル広場', 'data/kml2/12.kml');
+		kmlDataArray[12] = new kmlData('レイアル広場', 'data/kml2/13.kml');
+		kmlDataArray[13] = new kmlData('レイアル広場', 'data/kml2/14.kml');
+		kmlDataArray[14] = new kmlData('レイアル広場', 'data/kml2/15.kml');
+		kmlDataArray[15] = new kmlData('レイアル広場', 'data/kml2/16.kml');
+		kmlDataArray[16] = new kmlData('レイアル広場', 'data/kml2/17.kml');
+		kmlDataArray[17] = new kmlData('レイアル広場', 'data/kml2/18.kml');
+		kmlDataArray[18] = new kmlData('レイアル広場', 'data/kml2/19.kml');
+		kmlDataArray[19] = new kmlData('レイアル広場', 'data/kml2/20.kml');
+
 		//時間情報入りのKML
 		//kmlDataArray[2] = new kmlData("タイムスパン", 'data/kml/timeSpans.kml');
 
@@ -272,7 +287,7 @@
 			}, 200);
 		}
 
-		// ========== 地図オーバレイを作成 ========== 
+		// ========== 地図オーバレイを作成 ==========
 
 		// オーバレイ配列
 
@@ -314,7 +329,7 @@
 			overlayListMenu.innerHTML = overlayList;
 		}
 
-		//オーバレイの透明度を変更 
+		//オーバレイの透明度を変更
 
 		function transParent(layer) {
 			var id = overlayDataArray[layer].id;
@@ -358,7 +373,7 @@
 			);
 		}
 
-		// ========== ダブルクリックでストビューを表示 ========== 
+		// ========== ダブルクリックでストビューを表示 ==========
 
 		//移動前のカメラ位置格納オブジェクト
 
@@ -422,13 +437,13 @@
 			}, Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK);
 		}
 
-		// ========== ヘルプへリンク ========== 
+		// ========== ヘルプへリンク ==========
 
 		function help() {
 			window.open('https://github.com/wtnv-lab/cesiumGitHubPages');
 		}
 
-		// ========== 各種DIVのフェードイン・アウト ========== 
+		// ========== 各種DIVのフェードイン・アウト ==========
 
 		function fadeInOut(layer, param) {
 			if (param == 0) {

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>20.kml</name>
+	<Style id="failed11">
+		<IconStyle>
+			<Icon>
+				<href>../img/20.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="failed">
+		<IconStyle>
+			<Icon>
+				<href>../img/20.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>サグラダファミリア付属学校</name>
+		<description><![CDATA[<img src="https://tse4.mm.bing.net/th?id=OIP.JeS6jk-edSXCGpS0U7S82AEsCo&w=300&h=300&p=0&pid=1.7">
+1908～1909年
+設計：アントニ・ガウディ
+
+サグラダファミリアで働く職人の子弟とその家族のために設置された小学校。カタルーニャ・ヴォールトを駆使し、局面のみで構成された建築は傑作と言われた。
+現在は展示室として使用。
+
+見学：サグラダファミリアの入場チケットで内部に入ることができる。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.174850700006232</longitude>
+			<latitude>41.40320289964151</latitude>
+			<altitude>0</altitude>
+			<heading>3.810304508393292e-012</heading>
+			<tilt>0</tilt>
+			<range>1000.000032195947</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1909</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin10</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.174850700006232,41.40320289964151,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

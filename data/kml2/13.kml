@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>13.kml</name>
+	<StyleMap id="m_ylw-pushpin11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed3">
+		<IconStyle>
+			<Icon>
+				<href>../img/13.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="failed7">
+		<IconStyle>
+			<Icon>
+				<href>../img/13.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>グエル公園</name>
+		<description><![CDATA[<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Parc_gueell_1.jpeg/275px-Parc_gueell_1.jpeg">1900～1914年
+設計：アントニ・ガウディ
+
+グエルが構想した最初の都市計画。
+市の公園として一般開放。バルセロナっ子の憩いの場。
+
+見学：入場無料、ガウディ博物館は有料。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.153147003243074</longitude>
+			<latitude>41.41484925907846</latitude>
+			<altitude>0</altitude>
+			<heading>0.0002195936817955133</heading>
+			<tilt>55.53191944304944</tilt>
+			<range>404.9522841009307</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1914</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin11</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.152680658341259,41.41452858775902,100</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

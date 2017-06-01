@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>8.kml</name>
+	<Style id="failed25">
+		<IconStyle>
+			<Icon>
+				<href>../img/8.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Style id="failed10">
+		<IconStyle>
+			<Icon>
+				<href>../img/8.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>カサ・アマトリェー</name>
+		<description><![CDATA[<img src="https://worldheritagesite.xyz/wp-content/uploads/2015/08/%E3%82%AB%E3%82%B5%E3%83%BB%E3%82%A2%E3%83%9E%E3%83%88%E3%83%AA%E3%82%A7%E3%83%BC-2-720x480.jpg">1898～1900年
+設計：プーチ・イ・カダファルク
+
+書き割り風のファサードと、バルコニーに施された繊細な彫刻は見ごたえあり。一階は高級宝石店となっている。
+
+見学：有料ガイドツアーに参加すれば二階部分を見ることができる。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.164993712256609</longitude>
+			<latitude>41.39149415310889</latitude>
+			<altitude>0</altitude>
+			<heading>1.247234043515156e-009</heading>
+			<tilt>0</tilt>
+			<range>1005.010825734167</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1900</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin7</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.164993712256609,41.39149415310889,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

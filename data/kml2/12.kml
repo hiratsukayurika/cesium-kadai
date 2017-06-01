@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>12.kml</name>
+	<Style id="failed17">
+		<IconStyle>
+			<Icon>
+				<href>../img/12.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed36</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed36">
+		<IconStyle>
+			<Icon>
+				<href>../img/12.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>ベリェスグアルド</name>
+		<description><![CDATA[<img src="http://i1.wp.com/www.photo-yatra.tokyo/blog/wp-content/uploads/2014/10/blog_import_54940670aabb4.jpg?fit=450%2C675&ssl=1">1900～1908年
+設計：アントニ・ガウディ
+
+政治家ジャウメ・フィゲーラスの未亡人マリア・サンゲスの依頼による個人住宅。
+カタルーニャ語で「美しい眺め」を意味する名を持ち、中世の域のような外観、ストレートで仕上げた外壁など周辺環境ともよく調和している。
+滑らかなプラスター仕立ての内部空間も美しい。
+
+見学：個人邸宅のため内部は非公開だが、敷地内の立ち入りは可能。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.129728923494723</longitude>
+			<latitude>41.40800134222347</latitude>
+			<altitude>0</altitude>
+			<heading>0.003086867176520894</heading>
+			<tilt>16.81078102216652</tilt>
+			<range>1188.065864711545</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1908</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin4</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.126731830791666,41.4091035353252,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

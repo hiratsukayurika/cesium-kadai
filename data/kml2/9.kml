@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>9.kml</name>
+	<Style id="failed8">
+		<IconStyle>
+			<Icon>
+				<href>../img/9.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed12">
+		<IconStyle>
+			<Icon>
+				<href>../img/9.jpg</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0055aa</color>
+		</LabelStyle>
+	</Style>
+	<Placemark>
+		<name>カサ・カルベット</name>
+		<description><![CDATA[<img src="http://gaudi-architectural-work.com/images/casa-calvet.jpg">
+1898～1900年
+設計：アントニ・ガウディ
+
+ガウディが初めて手掛けた集合住宅。
+一見すると目立たない佇まいだが、外観にはところどころ有機的モチーフによる装飾が濃密に施され、正面二階にトリビューン（楼台）、頂部に二つの半円形の飾り壁がある。
+
+見学：レストランとして営業している一階部分のみ見学可能。]]></description>
+		<LookAt>
+			<gx:TimeStamp><when>1935</when>
+</gx:TimeStamp>
+			<longitude>2.17307880002843</longitude>
+			<latitude>41.39088260034934</latitude>
+			<altitude>0</altitude>
+			<heading>1.873724398250435e-011</heading>
+			<tilt>0</tilt>
+			<range>1000.000026820916</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan>
+			<begin>1900</begin>
+		</TimeSpan>
+		<styleUrl>#m_ylw-pushpin13</styleUrl>
+		<Point>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>2.17307880002843,41.39088260034934,300</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
